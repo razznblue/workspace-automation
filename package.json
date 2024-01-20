@@ -1,0 +1,17 @@
+{
+  "name": "workspace-automation",
+  "version": "1.0.0",
+  "description": "automate your applications opening and closing with one command!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "open": "node open.js ${REPO:-assertiveness}",
+    "close": "node close.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^9.1.0"
+  }
+}
